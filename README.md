@@ -100,7 +100,7 @@ OLED ekranın alt satırlarında her zaman şu bilgiler sabit olarak gösterilir
 Proje iki ana koddan oluşur:
 
 1. **`ip_ogren.ino`** — Kartın WiFi ağına bağlanıp kendi IP adresini OLED ekranda göstermesini sağlayan yardımcı kod. Her iki kartın IP adresini öğrenmek için kullanılır.
-2. **`mesajlasma.ino`** — Asıl mesajlaşma mantığının bulunduğu ana kod. Bu kodun her iki karta da yüklenmesi gerekir; tek fark `hedefIP` değişkenine karşı tarafın IP adresinin girilmesidir.
+2. **`kartlar.ino`** — Asıl mesajlaşma mantığının bulunduğu ana kod. Bu kodun her iki karta da yüklenmesi gerekir; tek fark `hedefIP` değişkenine karşı tarafın IP adresinin girilmesidir.
 
 ### Önemli Değişkenler
 
